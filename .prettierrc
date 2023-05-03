@@ -1,0 +1,27 @@
+{
+    "singleQuote": false,
+    "useTabs": false,
+    "semi": false,
+    "tabWidth": 4,
+    "printWidth": 100,
+    "quoteProps": "consistent",
+    "trailingComma": "es5",
+    "importOrder": [
+        "^react/(.*)$",
+        "^next/(.*)$",
+        "^@/pages/(.*)$",
+        "^@/components/(.*)$",
+        "^@/styles/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "overrides": [
+        {
+            "files": ["*.jsx", "*.tsx", "*.json", "*.yml", "*.yaml", "*.md"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

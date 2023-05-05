@@ -14,8 +14,10 @@ export default function Home() {
       <Head>
         <title>Smart Raffle</title>
       </Head>
-      <Header />
-      <EnterRaffle />
+      <div className="zoom">
+        <Header />
+        <EnterRaffle />
+      </div>
     </main>
   )
 }

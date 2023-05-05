@@ -9,9 +9,11 @@
     "importOrder": [
         "^react/(.*)$",
         "^next/(.*)$",
+        "^@web3uikit/(.*)$",
         "^@/pages/(.*)$",
         "^@/components/(.*)$",
         "^@/styles/(.*)$",
+        "^@/constants/(.*)$",
         "^[./]"
     ],
     "importOrderSeparation": true,
